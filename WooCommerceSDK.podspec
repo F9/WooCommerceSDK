@@ -12,4 +12,7 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = '2.0'
   
   s.source_files = 'Sources/*.swift'
+  
+  s.dependency 'Alamofire/Alamofire' '3.1.5'
+  s.dependency 'Hearst-DD/ObjectMapper' '>= 1.1'
 end

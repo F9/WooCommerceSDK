@@ -4,8 +4,10 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
   s.summary = 'SDK for WooCommerce'
   s.homepage = 'https://woocommerce.com/'
-  s.source = { :git => 'https://github.com/bre7/WooCommerceSDK.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/F9/WooCommerceSDK.git', :tag => s.version }
 
+  s.author           = { 'F9' => 'francesco.nove@gmail.com' }
+  
   s.ios.deployment_target  = '8.0'
   s.osx.deployment_target  = '10.9'
   s.tvos.deployment_target = '9.0'

@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   
   s.source_files = 'Sources/*.swift'
   
-  s.dependency 'Alamofire/Alamofire' '3.1.5'
-  s.dependency 'Hearst-DD/ObjectMapper' '>= 1.1'
+  s.dependency 'Alamofire/Alamofire'
+  s.dependency 'Hearst-DD/ObjectMapper'
 end
